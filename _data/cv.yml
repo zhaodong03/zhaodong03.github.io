@@ -2,66 +2,65 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Zhaodong Kang
     - name: Date of Birth
-      value: 14th March 1879
+      value: 1st November 2003
     - name: Languages
-      value: English, German
+      value: English, Chinese
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Computer Science
+      institution: Georgia Insitute of Technology
+      year: Dec 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 4.0/4.0"
+        - "Awards: Faculty Honors"
+        - "Clubs/Organizations: College of Computing Peer Mentor, Chinese Student Scholar Association"
+
+    - title: Early College Scholar
+      institution: Washington University in St. Louis
+      year: Jul 2020
       description:
-        - Description 1.
-        - Description 2.
+        - "Grade: A+"
+        - "Course: Design Thinking: Human-Centered Approaches to Making the World (3 credits)"
+        - "Project: Worked with a group of 3 creating a cooking system prototype for teaching beginner cooks during the pandemic"
+
+- title: Course Wrok
+  type: list
+  contents:
+    - <b>Fall 2022</b> - Intro to Database Systems, Intro to Computer Vision, Machine Learning, Systems and Networks, Intro Multivariable Calculus
+    - <b>Spring 2022</b> - Data Structure & Algorithms, Computer Organization & Programming, Honors Discrete Math CS
+    - <b>Fall 2021</b> - Intro to Object Orienting Programming, Linear Algebra
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant
+      institution: TestDaily (Educational Company)
+      year: 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Assisted in teaching Data Structure for incoming college students, covering Java Basics, LinkedList, BST, Heap, AVL, Hashtable
+        - Held weekly two-hour-long recitation for students to reinforce contents and be graded 5 out of 5 by students at the end of the course
+        - Answered students' questions and helped them in debugging and coding to improve their programming skills
+    - title: Vertically Integrated Project Team Member - Automatic Algorithm Design
+      institution: Georgia Tech Research Institute
+      year: 2022 - Now
       description:
-        - Description 1.
-        - Description 2.
+        - Participated in bootcamp to learn Genetic Algorithms, Genetic Programming, Machine Learning, DEAP (Distributed Evolutionary Algorithms in Python), and EMADE (Evolutionary Multi-objective Algorithm Design Engine)
+        - Led a group of 4 to achieve the co-dominant solutions and find the Pareto front using different ML models, Multi-Objective Genetic Programing, and EMADE on predicting the survival on Titanic, with the Accuracy Score of 86.59% and True Positive Rate 88.03%
+        - Joined image processing sub-team working with 2 students to preprocess 49,466 images for testing the Evolutionary Model.
+        - Documented legibility, intelligible, and technical meeting notes with MediaWiki to track labs
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Undergraduate Research Assistant
+      institution: Ubicomp Health Lab @ Georgia Tech
+      year: 2022 - Now
       description:
+        - Conducted research with Dr. Rosa Arriaga about Human-Computer Interaction in Ubicomp Health Lab, focusing on building the Diabetic Ulcer Computational Sensing System for diabetes patients and clinicians that is usable and useful
+        - Working with a group of 9 on designing and developing the system with React Native, reviewing related literatures, and participating weekly meetings
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
@@ -71,27 +70,51 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2021
       items:
-        - Description 1.
-        - Description 2.
+        -
+        -
+    - year: 2020
+      items:
+        - AP® Scholar with Distinction Award
+
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#       year: 2015-now
+#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Volunteering
+  type: time_table
+  contents:
+    - title: Member
+      institution: Asian Liver Center @ Stanford University
+      year: 2019- 2021
+      description:
+        - Completed an online course about hepatitis, accomplished presentation, and recorded videos during the COVID-19 showing an overview of hepatitis B to introduce the route of transmission, the prevention methods, and elimination the discrimination to patients (Qingqing Scholarship Program)
+        - Selected as 1 of 100 exceptional students worldwide, attended an associated Youth Leadership Conference, worked with 9 global students to design a virtual campaign about hepatitis B, and presented ideas to experts at Stanford University
+    - title: Participant
+      institution: OSPA (Overseas Students Philanthropy Actions)
+      year: 2022 - Now
+      description:
+        - Designed a questionnaire for rural education teachers with multiple rounds of trial and revision, which was designed based on the principles of validity, simplicity, user-friendliness, science, and innovation.
+        - Collected over 350 sets of data through the questionnaire to lay the groundwork for the compilation of a white paper on rural education in China
+        - Analyzed for reliability and validity of the questionnaire to avoid inducing subjects and filtered intrusive data and outliers
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> hiking, music, food, etc.
