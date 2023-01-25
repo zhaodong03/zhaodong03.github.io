@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: B.S. in Computer Science
-      institution: Georgia Insitute of Technology
+      institution: <a href="https://www.gatech.edu" style="color:#B3A369">Georgia Insititute of Technology</a>
       year: Dec 2024
       description:
         - "GPA: 4.0/4.0"
@@ -20,7 +20,7 @@
         - "Clubs/Organizations: College of Computing Peer Mentor, Chinese Student Scholar Association"
 
     - title: Early College Scholar
-      institution: Washington University in St. Louis
+      institution: <a href="https://wustl.edu/">Washington University in St. Louis</a>
       year: Jul 2020
       description:
         - "Grade: A+"
@@ -82,8 +82,8 @@
   contents:
     - year: 2022
       items:
-        - Georgia Tech's Faculty Honor (Spring 2022)
         - Georgia Tech's Faculty Honor (Fall 2022)
+        - <a https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2022-Semester/86308527>Georgia Tech's Faculty Honor (Spring 2022)</a>
     - year: 2021
       items:
         - Georgia Tech's Faculty Honor (Fall 2021)
