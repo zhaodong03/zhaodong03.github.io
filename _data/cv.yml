@@ -70,8 +70,7 @@
       description: 
         items:
           - Worked with a team of 4 to draw the Enhanced Entity Relationship Diagram (EERD), create the physical database schema, and implement views and stored procedures in MySQL based on the restaurant delivery scenario description and initial dataset
-          - Implemented the backend, including the MyBatis, POJO, and API, for a final full-fledged website application
-
+          - Implemented the backend, including the MyBatis, POJO, and API, for a final full-fledged website applicationxw
     - title: <a href="https://github.gatech.edu/pages/Zkang40/CS-4641-Group-53">Facial Emotion Recognition</a>
       year: 2022
       description: 
@@ -79,6 +78,7 @@
           - Led a team of 5 to train & test machine learning models on human facial emotion recognition task in Python and Jupyter notebook
           - Preprocessed the images with Principal component analysis (PCA) to improve algorithm efficiency and minimize information loss
           -	Fine-tuned and compared the result of 9 different model, including ResNet, AlexNet, Random Forest, SVM, Neural net, etc.
+
 - title: Honors and Awards
   type: time_table
   contents:
@@ -86,7 +86,6 @@
         items:
           - Georgia Tech's Faculty Honor (Spring 2022)
           - Georgia Tech's Faculty Honor (Fall 2022)
-
     - year: 2021
       items:
         - Georgia Tech's Faculty Honor (Fall 2021)
