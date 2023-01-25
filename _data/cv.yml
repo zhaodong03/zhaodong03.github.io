@@ -20,7 +20,7 @@
         - "Clubs/Organizations: College of Computing Peer Mentor, Chinese Student Scholar Association"
 
     - title: Early College Scholar
-      institution: <a href="https://wustl.edu/">Washington University in St. Louis</a>
+      institution: <a href="https://wustl.edu/" style="color:#a51417">Washington University in St. Louis</a>
       year: Jul 2020
       description:
         - "Grade: A+"
@@ -48,10 +48,10 @@
         - Documented legibility, intelligible, and technical meeting notes with MediaWiki to track labs
 
     - title: Undergraduate Research Assistant
-      institution: Ubicomp Health Lab @ Georgia Tech
+      institution: <a href="https://sites.google.com/view/riarriaga/lab">Ubicomp Health Lab @ Georgia Tech</a>
       year: 2022 - 2023
       description:
-        - Conducted research with Dr. Rosa Arriaga about Human-Computer Interaction in Ubicomp Health Lab, focusing on building the Diabetic Ulcer Computational Sensing System for diabetes patients and clinicians that is usable and useful
+        - Conducted research with <a href="https://sites.google.com/view/riarriaga/home?authuser=0">Dr. Rosa Arriaga</a> about Human-Computer Interaction in Ubicomp Health Lab, focusing on building the Diabetic Ulcer Computational Sensing System for diabetes patients and clinicians that is usable and useful
         - Working with a group of 9 on designing and developing the system with React Native, reviewing related literatures, and participating weekly meetings
 
     - title: Teaching Assistant
@@ -83,7 +83,7 @@
     - year: 2022
       items:
         - Georgia Tech's Faculty Honor (Fall 2022)
-        - <a https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2022-Semester/86308527>Georgia Tech's Faculty Honor (Spring 2022)</a>
+        - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2022-Semester/86308527">Georgia Tech's Faculty Honor (Spring 2022)</a>
     - year: 2021
       items:
         - Georgia Tech's Faculty Honor (Fall 2021)
