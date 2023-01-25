@@ -53,7 +53,7 @@
       description:
         - Conducted research with Dr. Rosa Arriaga about Human-Computer Interaction in Ubicomp Health Lab, focusing on building the Diabetic Ulcer Computational Sensing System for diabetes patients and clinicians that is usable and useful
         - Working with a group of 9 on designing and developing the system with React Native, reviewing related literatures, and participating weekly meetings
-    
+
     - title: Teaching Assistant
       institution: TestDaily (Educational Company)
       year: 2022
@@ -61,31 +61,29 @@
         - Assisted in teaching Data Structure for incoming college students, covering Java Basics, LinkedList, BST, Heap, AVL, Hashtable
         - Held weekly two-hour-long recitation for students to reinforce contents and be graded 5 out of 5 by students at the end of the course
         - Answered students' questions and helped them in debugging and coding to improve their programming skills
-    
+
 - title: Projects
   type: time_table
   contents:
     - title: <a href="https://github.com/haozihong/GT-CS-4400-Project-Phase4">Restaurant Supply Express</a>
       year: 2022
-      description: 
-        items:
-          - Worked with a team of 4 to draw the Enhanced Entity Relationship Diagram (EERD), create the physical database schema, and implement views and stored procedures in MySQL based on the restaurant delivery scenario description and initial dataset
-          - Implemented the backend, including the MyBatis, POJO, and API, for a final full-fledged website applicationxw
+      description:
+        - Worked with a team of 4 to draw the Enhanced Entity Relationship Diagram (EERD), create the physical database schema, and implement views and stored procedures in MySQL based on the restaurant delivery scenario description and initial dataset
+        - Implemented the backend, including the MyBatis, POJO, and API, for a final full-fledged website applicationxw
     - title: <a href="https://github.gatech.edu/pages/Zkang40/CS-4641-Group-53">Facial Emotion Recognition</a>
       year: 2022
-      description: 
-        items:
-          - Led a team of 5 to train & test machine learning models on human facial emotion recognition task in Python and Jupyter notebook
-          - Preprocessed the images with Principal component analysis (PCA) to improve algorithm efficiency and minimize information loss
-          -	Fine-tuned and compared the result of 9 different model, including ResNet, AlexNet, Random Forest, SVM, Neural net, etc.
+      description:
+        - Led a team of 5 to train & test machine learning models on human facial emotion recognition task in Python and Jupyter notebook
+        - Preprocessed the images with Principal component analysis (PCA) to improve algorithm efficiency and minimize information loss
+        - Fine-tuned and compared the result of 9 different model, including ResNet, AlexNet, Random Forest, SVM, Neural net, etc.
 
 - title: Honors and Awards
   type: time_table
   contents:
     - year: 2022
-        items:
-          - Georgia Tech's Faculty Honor (Spring 2022)
-          - Georgia Tech's Faculty Honor (Fall 2022)
+      items:
+        - Georgia Tech's Faculty Honor (Spring 2022)
+        - Georgia Tech's Faculty Honor (Fall 2022)
     - year: 2021
       items:
         - Georgia Tech's Faculty Honor (Fall 2021)
