@@ -9,12 +9,13 @@ profile:
   image: my_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>950 Marietta Street</p>
     <p>Atlanta, GA 30318</p>
+    <p>USA</p>
+
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social:   # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 Hello, I am Zhaodong Kang, a junior undergradute Computer Science student @ Georgia Tech. My threads (concentrations) are Intelligence and Information Internetwork. 
 
