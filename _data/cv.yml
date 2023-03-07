@@ -44,7 +44,7 @@
       description:
         - Participated in bootcamp to learn Genetic Algorithms, Genetic Programming, Machine Learning, DEAP (Distributed Evolutionary Algorithms in Python), and EMADE (Evolutionary Multi-objective Algorithm Design Engine)
         - Led a group of 4 to achieve the co-dominant solutions and find the Pareto front using different ML models, Multi-Objective Genetic Programing, and EMADE on predicting the survival on Titanic, with the Accuracy Score of 86.59% and True Positive Rate 88.03%
-        - Joined image processing sub-team working with 2 students to preprocess 49,466 images for testing the Evolutionary Model.
+        - Joined <a href="../assets/img/poster.png">image processing</a> sub-team working with 2 students to preprocess 49,466 images for testing the Evolutionary Model.
         - Documented legibility, intelligible, and technical meeting notes with MediaWiki to track labs
 
     - title: Undergraduate Research Assistant
@@ -90,25 +90,6 @@
     - year: 2020
       items:
         - AP® Scholar with Distinction Award
-
-# - title: Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Academic Interests
-#   type: nested_list
-#   contents:
-#     - title: Topic 1.
-#       items:
-#         - Description 1.
-#         - Description 2.
-#     - title: Topic 2.
-#       items:
-#         - Description 1.
-#         - Description 2.
 
 - title: Volunteering
   type: time_table
