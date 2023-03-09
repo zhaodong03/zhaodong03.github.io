@@ -1,14 +1,21 @@
 ---
 layout: page
-title: Computer Vision
-permalink: /vision/
-description: Five projects related to Computer Vision
-img: assets/img/hybrid_image.jpg
-importance: 1
-category: course
-display_categories: [Computer Vision]
+title: travels
+permalink: /travels/
+description: My travel photos
+nav: true
+nav_order: 2
+display_categories: [travel]
 horizontal: false
 ---
+<!-- # My flights History
+
+| Date   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 | -->
+
 <!-- pages/projects.md -->
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}

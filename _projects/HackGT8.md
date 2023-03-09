@@ -2,7 +2,7 @@
 layout: page
 title: HackGT8
 description: Hackthon Project, GUI game with JAVA
-img: assets/img/7.jpg
+img: assets/hackGT.png
 # redirect: 
 importance: 3
 category: fun
