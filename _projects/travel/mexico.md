@@ -1,9 +1,9 @@
 ---
 layout: page
-title: mexico
+title: Mexico
 description: My photo collections in Mexico
 img:
 importance: 2
 category: travel
 ---
-<img src="/assets/img/mexico/mexico1.jpg"  width="100%">
+<img src="/assets/img/travel/Mexico/01.jpg"  width="100%">

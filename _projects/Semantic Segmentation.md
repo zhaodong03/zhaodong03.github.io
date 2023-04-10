@@ -2,7 +2,7 @@
 layout: page
 title: Semantic Segmentation Deep Learning
 description: 
-img:
+img: assets/img/Segmentation.png
 importance: 5
 category: Computer Vision
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: SIFT Local Feature Matching
 description: 
-img:
+img: assets/img/SIFT.png
 importance: 2
 category: Computer Vision
 ---

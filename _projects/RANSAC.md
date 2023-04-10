@@ -2,7 +2,7 @@
 layout: page
 title: Camera Calibration and Fundamental Matrix Estimation with RANSAC
 description: 
-img:
+img: assets/img/RANSAC.png
 importance: 3
 category: Computer Vision
 ---

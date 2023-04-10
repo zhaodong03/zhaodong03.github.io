@@ -2,7 +2,7 @@
 layout: page
 title: Scene Recognition with Deep Learning
 description: 
-img:
+img: assets/img/scene.png
 importance: 4
 category: Computer Vision
 ---
