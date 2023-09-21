@@ -4,7 +4,7 @@ title: Convolution and Hybrid Images
 description: 
 img: assets/img/hybrid_image.jpg
 importance: 1
-category: Computer Vision
+category: course
 ---
 
 # Table of Contents

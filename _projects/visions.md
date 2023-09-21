@@ -5,7 +5,7 @@ permalink: /vision/
 description: Five projects related to Computer Vision
 img: assets/img/hybrid_image.jpg
 importance: 1
-category: course
+category: 
 display_categories: [Computer Vision]
 horizontal: false
 ---

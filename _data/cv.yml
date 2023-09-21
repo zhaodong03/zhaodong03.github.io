@@ -30,7 +30,8 @@
 - title: Course Wrok
   type: list
   contents:
-    - <b>Spring 2023</b> - Dsgn&Analysis-Algorithms, Objects and Design, Intro-Artificial Intell, General Psychology
+    - <b>Fall 2024</b> - Introduction to Perception and Robotics, Statistics and Applications, Applied Combinatorics, Computing, Society, and Professionalism
+    - <b>Spring 2023</b> - Design & Analysis-Algorithms, Objects and Design, Introduction to Artificial Intelligence, General Psychology
     - <b>Fall 2022</b> - Intro to Database Systems, Intro to Computer Vision, Machine Learning, Systems and Networks, Intro Multivariable Calculus
     - <b>Spring 2022</b> - Data Structure & Algorithms, Computer Organization & Programming, Honors Discrete Math CS
     - <b>Fall 2021</b> - Intro to Object Orienting Programming, Linear Algebra
@@ -38,9 +39,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Software Engineer Intern | Summer Analyst in Global Technology
+      institution: Bank of America | Charlotte, NC
+      year: 2023/06 - 2023/08
+      description:
+        - Automated Federal Reserve reports generation processes by integrating Oracle DB and internal UI framework using Python, resulting in a 15x efficiency enhancement, and reducing potential user-induced errors with validation checks.
+        - Designed technical implementation and user interface by synthesizing customer usage pattern investigation, code compatibility with existing codebase, and potential user consultations.
+
     - title: Automatic Algorithm Design Team Member (Vertically Integrated Project)
-      institution: Georgia Tech Research Institute
-      year: 2022 - Now
+      institution: Georgia Tech Research Institute | Atlanta, GA
+      year: 2022/01 - 2023/05
       description:
         - Participated in bootcamp to learn Genetic Algorithms, Genetic Programming, Machine Learning, DEAP (Distributed Evolutionary Algorithms in Python), and EMADE (Evolutionary Multi-objective Algorithm Design Engine)
         - Led a group of 4 to achieve the co-dominant solutions and find the Pareto front using different ML models, Multi-Objective Genetic Programing, and EMADE on predicting the survival on Titanic, with the Accuracy Score of 86.59% and True Positive Rate 88.03%
@@ -48,15 +56,15 @@
         - Documented legibility, intelligible, and technical meeting notes with MediaWiki to track labs
 
     - title: Undergraduate Research Assistant
-      institution: <a href="https://sites.google.com/view/riarriaga/lab">Ubicomp Health Lab @ Georgia Tech</a>
-      year: 2022 - 2023
+      institution: <a href="https://sites.google.com/view/riarriaga/lab">Ubicomp Health Lab @ Georgia Tech</a> | Atlanta, GA
+      year: 2022/08 - 2023/01
       description:
         - Conducted research with <a href="https://sites.google.com/view/riarriaga/home?authuser=0">Dr. Rosa Arriaga</a> about Human-Computer Interaction in Ubicomp Health Lab, focusing on building the Diabetic Ulcer Computational Sensing System for diabetes patients and clinicians that is usable and useful
         - Working with a group of 9 on designing and developing the system with React Native, reviewing related literatures, and participating weekly meetings
 
     - title: Teaching Assistant
-      institution: TestDaily (Educational Company)
-      year: 2022
+      institution: TestDaily (Educational Company) | Remote
+      year: 2022/06 - 2022/07
       description:
         - Assisted in teaching Data Structure for incoming college students, covering Java Basics, LinkedList, BST, Heap, AVL, Hashtable
         - Held weekly two-hour-long recitation for students to reinforce contents and be graded 5 out of 5 by students at the end of the course
@@ -80,9 +88,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      items:
+        - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2023-Semester/112280675">Georgia Tech's Faculty Honor (Spring 2023)</a>
     - year: 2022
       items:
-        - Georgia Tech's Faculty Honor (Fall 2022)
+        - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Fall-2022-Semester/104288137">Georgia Tech's Faculty Honor (Fall 2022)</a>
         - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2022-Semester/86308527">Georgia Tech's Faculty Honor (Spring 2022)</a>
     - year: 2021
       items:
