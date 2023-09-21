@@ -13,11 +13,11 @@
   contents:
     - title: B.S. in Computer Science
       institution: <a href="https://www.gatech.edu" style="color:#B3A369">Georgia Insititute of Technology</a>
-      year: Dec 2024
+      year: May 2024
       description:
         - "GPA: 4.0/4.0"
         - "Awards: Faculty Honors"
-        - "Clubs/Organizations: College of Computing Peer Mentor, Chinese Student Scholar Association"
+        - "Engagements: College of Computing Peer Mentor, HackGT Hackathon, GT Trailblazers, Chinese Student Scholar Association"
 
     - title: Early College Scholar
       institution: <a href="https://wustl.edu/" style="color:#a51417">Washington University in St. Louis</a>
@@ -26,7 +26,6 @@
         - "Grade: A+"
         - "Course: Design Thinking: Human-Centered Approaches to Making the World (3 credits)"
         - "Project: Worked with a group of 3 creating a cooking system prototype for teaching beginner cooks during the pandemic"
-
 - title: Course Wrok
   type: list
   contents:
