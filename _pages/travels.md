@@ -11,8 +11,8 @@ horizontal: false
 <iframe
   id="inlineFrameExample"
   title="Inline Frame Example"
-  height="100" 
-  width="100"
+  height="1000" 
+  width="100%"
   src="https://flightmapper.io/maps/zkang">
 </iframe>
 
