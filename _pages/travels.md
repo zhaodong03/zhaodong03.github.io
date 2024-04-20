@@ -8,13 +8,13 @@ nav_order: 2
 display_categories: [travel]
 horizontal: false
 ---
-<!-- # My flights History
-
-| Date   |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 | -->
+<iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  height="100" 
+  width="100"
+  src="https://flightmapper.io/maps/zkang">
+</iframe>
 
 <!-- pages/projects.md -->
 <div class="projects">
@@ -45,6 +45,12 @@ horizontal: false
 {%- else -%}
 <!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
+  <iframe
+  id="inlineFrameExample"
+  title="Inline Frame Example"
+  height="" 
+  width="100%"
+  src="https://flightmapper.io/maps/zkang"></iframe>
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
