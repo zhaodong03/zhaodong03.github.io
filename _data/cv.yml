@@ -104,6 +104,11 @@
         - Designed and implemented a high-performance distributed file system with gRPC and Protocol Buffers, supporting scalable multi-client access and weak consistency.  
         - Built an efficient in-memory caching proxy with multi-threading and IPC primitives (semaphores, mutexes), achieving low-latency file serving under concurrent load.
     
+    - title: Acronym Search Engine
+      year: 2023
+      description:
+        - Led an 8-member team to build a scalable acronym search engine with Python, SQLite, and Streamlit, covering 30,000+ acronyms, significantly reducing internal training time and cost.
+
     - title: Semantic Segmentation Deep Learning (Affiliated Project for CS4476)
       year: 2022
       description:
