@@ -20,8 +20,9 @@
       institution: <a href="https://www.gatech.edu" style="color:#B3A369">Georgia Insititute of Technology</a>
       year: May 2024
       description:
-        - "GPA: 4.0/4.0"
-        - "Awards: Faculty Honors"
+        - "GPA: 3.96/4.0"
+        - "Major GPA: 4.0/4.0"
+        - "Awards: Faculty Honors, Dean's List"
         - "Engagements: College of Computing Peer Mentor, HackGT Hackathon, GT Trailblazers, Chinese Student Scholar Association"
 
     - title: Early College Scholar
@@ -35,11 +36,9 @@
   type: list
   contents:
 
-    - Graduate Coursework
-    - Master of Science in Computer Science, Georgia Institute of Technology
+    - <b>Graduate Coursework</b>
     - Introuction to Operating Systems, GPU SW and HW, Big Data Heath, Intro to Heath Informatics
-    - Undergraduate Coursework
-    - Bachelor of Science in Computer Science, Georgia Institute of Technology
+    - <b>Undergraduate Coursework</b>
     - <b>Spring 2024</b> - Computer Netorks I, Automata and Complexity, Intro to Information Security
     - <b>Fall 2023</b> - Introduction to Perception and Robotics, Statistics and Applications, Applied Combinatorics, Computing, Society, and Professionalism
     - <b>Spring 2023</b> - Design & Analysis-Algorithms, Objects and Design, Introduction to Artificial Intelligence, General Psychology
