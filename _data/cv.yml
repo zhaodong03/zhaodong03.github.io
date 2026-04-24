@@ -92,12 +92,31 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/haozihong/GT-CS-4400-Project-Phase4">Restaurant Supply Express</a>
+    - title: Closed Captions Simplifier with Fine-tuned LLM
+      year: 2025
+      description:
+        - Built and deployed an end-to-end ML system that fine-tuned LLMs via LoRA for abstractive closed caption simplification (34% length reduction, >90% retention), enhancing accessibility.  
+        - Integrated Whisper ASR and built a real-time inference pipeline and demo app, demonstrating practical application of personalized NLP in a latency-aware setting. 
+
+    - title: Distributed File System (Affliliate Project for CS6200)
+      year: 2025
+      description:
+        - Designed and implemented a high-performance distributed file system with gRPC and Protocol Buffers, supporting scalable multi-client access and weak consistency.  
+        - Built an efficient in-memory caching proxy with multi-threading and IPC primitives (semaphores, mutexes), achieving low-latency file serving under concurrent load.
+    
+    - title: Semantic Segmentation Deep Learning (Affiliated Project for CS4476)
+      year: 2022
+      description:
+        - Developed and implemented a deep learning model for semantic segmentation using PSPNet architecture w/ ResNet backbone.
+        - Optimized model through dilation and Pyramid Pooling Module (PPM), achieved a mIoU of 60.4% on the Camvid dataset
+
+    - title: <a href="https://github.com/haozihong/GT-CS-4400-Project-Phase4">Restaurant Supply Express</a> (Affiliated Project for CS4400)
       year: 2022
       description:
         - Worked with a team of 4 to draw the Enhanced Entity Relationship Diagram (EERD), create the physical database schema, and implement views and stored procedures in MySQL based on the restaurant delivery scenario description and initial dataset
         - Implemented the backend, including the MyBatis, POJO, and API, for a final full-fledged website applicationxw
-    - title: <a href="https://github.gatech.edu/pages/Zkang40/CS-4641-Group-53">Facial Emotion Recognition</a>
+    
+    - title: <a href="https://github.gatech.edu/pages/Zkang40/CS-4641-Group-53">Facial Emotion Recognition</a> (Affiliated Project for CS4641)
       year: 2022
       description:
         - Led a team of 5 to train & test machine learning models on human facial emotion recognition task in Python and Jupyter notebook
@@ -107,8 +126,12 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Named-to-Dean-s-List-at-Georgia-Tech-for-the-Spring-2024-Semester/135819835">Georgia Tech's Dean's List (Spring 2024)</a>
     - year: 2023
       items:
+        - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Fall-2023-Semester/125670386">Georgia Tech's Faculty Honor (Fall 2023)</a>
         - <a href="https://gatech.meritpages.com/stories/Zhaodong-Kang-Earns-Faculty-Honors-at-Georgia-Tech-for-the-Spring-2023-Semester/112280675">Georgia Tech's Faculty Honor (Spring 2023)</a>
     - year: 2022
       items:
