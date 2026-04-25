@@ -6,7 +6,7 @@
     - name: Date of Birth
       value: 1st November 2003
     - name: Languages
-      value: English, Chinese
+      value: English, Mandarin
 
 - title: Education
   type: time_table
@@ -53,7 +53,7 @@
       institution: Annapurna Labs (AWS) | Austin, TX
       year: 2025/12 - now
       description:
-        - Working on Machine Learning Accelerator (MLA) chip validation, including designing and implementing test cases, analyzing test results, and collaborating with cross-functional teams to ensure the quality and performance of the chip.
+        - Designed and implemented robust modern C++ test benches for critical data movement architecture, validating DMA
     
     - title: Software Engineer 
       institution: Bank of America | Charlotte, NC
@@ -67,8 +67,8 @@
       institution: Bank of America | Charlotte, NC
       year: 2023/06 - 2023/08
       description:
-        - Automated Federal Reserve reports generation processes by integrating Oracle DB and internal UI framework using Python, resulting in a 15x efficiency enhancement, and reducing potential user-induced errors with validation checks.
-        - Designed technical implementation and user interface by synthesizing customer usage pattern investigation, code compatibility with existing codebase, and potential user consultations.
+        - Designed and built a Python-based Workflow Orchestration Tool to automate over 20 pre-processing steps for regulatory reporting in Oracle DB, reducing manual setup time by 80% and improving overall system efficiency.
+        - Integrated real-time monitoring and status tracking into the internal UI framework, enhancing workflow visibility and reducing user-induced errors through automated validation checks.
 
     - title: Automatic Algorithm Design Team Member (Vertically Integrated Project)
       institution: Georgia Tech Research Institute | Atlanta, GA
