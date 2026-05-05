@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-stone-900 antialiased;
+    background-color: #faf8f4;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    @apply font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .section-heading {
+    @apply text-[10px] font-semibold uppercase tracking-[0.2em] text-stone-400 mb-5;
+  }
+
+  .divider {
+    @apply border-t border-stone-200 my-10;
+  }
+
+  .tag {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-stone-100 text-stone-600 border border-stone-200;
+  }
+
+  .tag-accent {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded text-xs font-medium bg-stone-900 text-stone-50;
+  }
+
+  .card {
+    @apply bg-white border border-stone-200 p-5 hover:border-stone-400 transition-all duration-200;
+  }
+
+  .link {
+    @apply text-stone-900 underline underline-offset-4 decoration-stone-400 hover:decoration-stone-900 transition-all;
+  }
+}
+
+/* ── Dark mode ────────────────────────────────────────────── */
+html.dark {
+  color-scheme: dark;
+}
+
+html.dark body {
+  background-color: #0c0a09;
+  color: #faf8f4;
+}
+
+/* Component class overrides */
+html.dark .section-heading { color: #78716c; }
+html.dark .tag { background-color: #292524; color: #d6d3d1; border-color: #44403c; }
+html.dark .tag-accent { background-color: #faf8f4; color: #1c1917; }
+html.dark .card { background-color: #1c1917; border-color: #292524; }
+html.dark .link { color: #e7e5e4; text-decoration-color: #57534e; }
+html.dark .divider { border-color: #292524; }
+
+/* Background overrides */
+html.dark .bg-stone-50  { background-color: #0c0a09; }
+html.dark .bg-white     { background-color: #1c1917; }
+html.dark .bg-stone-100 { background-color: #292524; }
+html.dark .bg-stone-200 { background-color: #292524; }
+html.dark .bg-stone-900 { background-color: #faf8f4; }
+
+/* Text overrides */
+html.dark .text-stone-900 { color: #faf8f4; }
+html.dark .text-stone-700 { color: #d6d3d1; }
+html.dark .text-stone-600 { color: #a8a29e; }
+html.dark .text-stone-500 { color: #78716c; }
+html.dark .text-stone-400 { color: #57534e; }
+html.dark .text-stone-50  { color: #1c1917; }
+
+/* Border overrides */
+html.dark .border-stone-200 { border-color: #292524; }
+html.dark .border-stone-300 { border-color: #44403c; }
+html.dark .border-stone-900 { border-color: #d6d3d1; }
+html.dark .border-b.border-stone-200 { border-color: #292524; }
+
+/* Divide overrides */
+html.dark .divide-stone-200 > :not([hidden]) ~ :not([hidden]) { border-color: #292524; }
+
+/* Hover overrides */
+html.dark .hover\:bg-stone-100:hover { background-color: #292524; }
+html.dark .hover\:bg-stone-700:hover { background-color: #44403c; }
+html.dark .hover\:text-stone-900:hover { color: #faf8f4; }
+html.dark .hover\:border-stone-400:hover { border-color: #78716c; }
+html.dark .hover\:border-stone-900:hover { border-color: #faf8f4; }
