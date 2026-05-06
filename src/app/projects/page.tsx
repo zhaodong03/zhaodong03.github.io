@@ -51,7 +51,7 @@ function ProjectCard({ project }: { project: (typeof projects)[number] }) {
 }
 
 export default function ProjectsPage() {
-  const sorted = [...projects].sort((a, b) => b.year - a.year);
+  const sorted = [...projects].sort((a, b) => b.year.localeCompare(a.year));
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-12 animate-fade-in">
