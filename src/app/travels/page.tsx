@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import TravelMap from '@/components/TravelMap';
 
 export const metadata: Metadata = {
   title: 'Beyond Work',
@@ -83,16 +84,7 @@ export default function BeyondWorkPage() {
       {/* Travel */}
       <section>
         <p className="section-heading">Travels</p>
-        <div className="border border-stone-200 overflow-hidden mb-8">
-          <iframe
-            title="My flight map"
-            src="https://flightmapper.io/maps/zkang"
-            width="100%"
-            height="500"
-            className="block"
-            loading="lazy"
-          />
-        </div>
+        <div className="mb-8"><TravelMap /></div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-px bg-stone-200">
           {travelDestinations.map(({ country, emoji, cover, note }) => (
             <div key={country} className="group relative aspect-square bg-stone-100 overflow-hidden">
