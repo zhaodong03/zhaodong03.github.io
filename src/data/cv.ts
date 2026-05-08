@@ -42,8 +42,9 @@ export const education: TimelineEntry[] = [
     location: 'St. Louis, MO',
     period: 'Jul 2020',
     description: [
-      'Grade: A+',
-      'Course: Design Thinking — Human-Centered Approaches to Making the World (3 credits)',
+      'Design Thinking — Human-Centered Approaches to Making the World',
+      'Grade: A+'
+
     ],
     link: 'https://wustl.edu/',
   },
@@ -95,8 +96,8 @@ export const researchExperience: TimelineEntry[] = [
     link: 'https://sites.google.com/view/riarriaga/lab',
   },
   {
-    title: 'Automatic Algorithm Design Team Member (VIP)',
-    institution: 'Georgia Tech Research Institute',
+    title: 'Undergraduate Researcher',
+    institution: 'Automatic Algorithm Design @ Georgia Tech Vertical Integrated Project',
     location: 'Atlanta, GA',
     period: 'Jan 2022 – May 2023',
     description: [
@@ -105,6 +106,7 @@ export const researchExperience: TimelineEntry[] = [
       'Joined image-processing sub-team working with 2 students to preprocess 49,466 images for testing the Evolutionary Model.',
       'Documented legible and technical meeting notes with MediaWiki to track lab progress.',
     ],
+    link: 'https://www.vip-consortium.org/teams/automated-alogrithm-design',
   },
 ];
 

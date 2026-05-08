@@ -10,18 +10,21 @@ const hobbies = [
   {
     name: 'Alpine Skiing',
     emoji: '⛷️',
+    description: 'Skiing the PNW — Mt. Hood and Mission Ridge.',
     photo: '/assets/img/mthood_ski.jpg',
     photoAlt: 'Skiing at Mt. Hood',
   },
   {
     name: 'Archery',
     emoji: '🏹',
+    description: '3D tournament and target shooting with a compound bow.',
     photo: null,
     photoAlt: null,
   },
   {
     name: 'Fishing',
     emoji: '🎣',
+    description: 'Offshore fishing in the Gulf of Mexico and the Pacific Ocean.',
     photo: null,
     photoAlt: null,
   },
@@ -53,12 +56,13 @@ export default function BeyondWorkPage() {
       <section className="mb-16">
         <p className="section-heading">Interests</p>
         <div className="divide-y divide-stone-200 border-t border-b border-stone-200">
-          {hobbies.map(({ name, emoji, photo, photoAlt }) => (
+          {hobbies.map(({ name, emoji, description, photo, photoAlt }) => (
             <div key={name} className="py-8 flex flex-col md:flex-row gap-8 items-start">
               <div className="flex-1">
                 <h2 className="font-serif text-2xl font-bold text-stone-900 mb-2">
                   {emoji} {name}
                 </h2>
+                <p className="text-stone-600 text-sm leading-relaxed">{description}</p>
               </div>
               {photo && (
                 <div className="relative w-full md:w-56 shrink-0 overflow-hidden border border-stone-200" style={{ aspectRatio: '3/4' }}>

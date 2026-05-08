@@ -58,7 +58,6 @@ export default function ProjectsPage() {
 
       {/* Page header */}
       <div className="border-b border-stone-200 pb-8 mb-12">
-        <p className="section-heading">Work</p>
         <h1 className="font-serif text-4xl md:text-5xl font-black text-stone-900 leading-none">
           Projects
         </h1>

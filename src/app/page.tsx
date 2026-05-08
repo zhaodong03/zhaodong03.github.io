@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { personal } from '@/data/personal';
-import { experience } from '@/data/cv';
 
 export const metadata: Metadata = {
   title: 'Zhaodong Kang — Software Engineer',
@@ -40,8 +39,6 @@ const socialLinks = [
 ];
 
 export default function HomePage() {
-  const recentExperience = experience.slice(0, 3);
-
   return (
     <div className="max-w-5xl mx-auto px-6 py-12 animate-fade-in">
 
@@ -52,12 +49,6 @@ export default function HomePage() {
           <h2 className="font-serif text-5xl md:text-6xl font-black text-stone-900 leading-none mb-6">
             Hello, I&apos;m<br />Zhaodong.
           </h2>
-          <p className="text-stone-600 leading-relaxed text-base mb-6 max-w-lg">
-            Software engineer passionate about systems, machine learning, and building reliable
-            software at scale. Currently working on chip validation at{' '}
-            <span className="font-semibold text-stone-900">Annapurna Labs (AWS)</span>,
-            and pursuing an M.S. in CS at Georgia Tech.
-          </p>
           <div className="flex items-center gap-3 flex-wrap">
             {socialLinks.map(({ label, href, icon }) => (
               <a
@@ -105,57 +96,32 @@ export default function HomePage() {
             <p className="section-heading">About</p>
             <div className="space-y-4 text-stone-700 leading-relaxed">
               <p>
-                I&apos;m a dedicated and enthusiastic computer science student and engineer.
+                I&apos;m currently a Software Development Engineer at{' '}
+                <span className="font-semibold text-stone-900">Annapurna Labs (AWS)</span>,
+                working on HW/SW co-design and chip validation for{' '}
+                <span className="font-semibold text-stone-900">Trainium</span> — AWS&apos;s custom
+                ML training accelerator. My work focuses on chip validation through emulation and simulation, writing C++ test benches to verify data movement
+                architecture and silicon bring-up.
+              </p>
+              <p>
+                Previously, I was a Software Engineer at{' '}
+                <span className="font-semibold text-stone-900">Bank of America</span>,
+                where I built internal tooling and data quality systems for regulatory reporting
+                in the Enterprise Stress Testing.
+              </p>
+              <p>
                 I hold a <span className="font-semibold text-stone-900">B.S. in Computer Science
-                (Intelligence + Information Internetwork)</span> from{' '}
+              </span> from{' '}
                 <a href="https://www.gatech.edu" target="_blank" rel="noopener noreferrer" className="link">
                   Georgia Institute of Technology
                 </a>{' '}
-                (GPA: 3.96/4.0, Major GPA: 4.0/4.0), with Faculty Honors and Dean&apos;s List recognition.
-                I am currently pursuing my M.S. in Computer Science there as well (GPA: 4.0/4.0).
+                (Major GPA: 4.0/4.0), with Faculty Honors and Dean&apos;s List recognition,
+                and am currently pursuing my M.S. in CS there as well (GPA: 4.0/4.0).
               </p>
               <p>
-                I have a strong foundation in algorithms, data structures, OOP, database systems,
-                systems &amp; networks, AI, machine learning, and computer vision. I&apos;ve worked
-                across the stack — from Python workflow automation at Bank of America to C++ test
-                benches for DMA validation in silicon bring-up at AWS.
+                Outside of work, I ski, do archery, and fish — visit my{' '}
+                <Link href="/travels/" className="link">Beyond Work</Link> page to see more.
               </p>
-              <p>
-                Outside of work, I enjoy traveling, hiking, and photography — visit my{' '}
-                <Link href="/travels/" className="link">Travels</Link> page to see where I&apos;ve been.
-              </p>
-            </div>
-          </section>
-
-          {/* Recent Experience */}
-          <section>
-            <div className="flex items-baseline justify-between mb-5">
-              <p className="section-heading mb-0">Recent Experience</p>
-              <Link href="/cv/" className="text-xs text-stone-500 hover:text-stone-900 underline underline-offset-4 transition-colors">
-                Full CV →
-              </Link>
-            </div>
-            <div className="divide-y divide-stone-200 border-t border-b border-stone-200">
-              {recentExperience.map((job, i) => (
-                <div key={i} className="py-5">
-                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
-                    <div>
-                      <p className="font-bold text-stone-900 text-base leading-snug">{job.institution}</p>
-                      <p className="text-sm font-semibold text-stone-700 mt-0.5">{job.title}</p>
-                      {job.location && <p className="text-xs text-stone-400 mt-0.5">{job.location}</p>}
-                    </div>
-                    <span className="text-xs text-stone-400 whitespace-nowrap shrink-0">{job.period}</span>
-                  </div>
-                  <ul className="space-y-1 mt-2">
-                    {job.description.map((line, j) => (
-                      <li key={j} className="text-sm text-stone-600 leading-relaxed flex gap-2">
-                        <span className="text-stone-400 shrink-0 mt-1.5 text-xs">▸</span>
-                        <span>{line}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
             </div>
           </section>
         </div>
